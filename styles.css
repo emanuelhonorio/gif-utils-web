@@ -1,0 +1,19 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    text-align: center;
+}
+
+#gifInputLabel {
+    display: block;
+    background-color: #f4f4f4;
+    border: 1px dashed #ddd;
+    padding: 20px 0;
+    cursor: pointer;
+    display: relative;
+}

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Divisor de Frames de GIF</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div>
+        <canvas id="c"></canvas>
+      </div>
+      <div style="margin: 10px 0;">
+        <input id="url" type="text" />
+        <button id="loadGIF">Load</button>
+        <button id="playpause">Play/Pause</button>
+      </div>
+      <div style="margin-bottom: 10px;">
+        <input id="edgedetect" type="checkbox" />
+        Edge Detect
+        <input id="invert" type="checkbox" />
+        Invert Colours
+        <input id="grayscale" type="checkbox" />
+        Grayscale
+      </div>
+      <div>
+        <input id="pixels" type="range" min="0" max="100" step="1" value="100" />
+        Pixelate Amount
+      </div>
+    <script src="
+        https://cdn.jsdelivr.net/npm/gifuct-js@2.1.2/lib/index.min.js
+    "></script>
+    <script src="script.js"></script>
+</body>
+</html>
